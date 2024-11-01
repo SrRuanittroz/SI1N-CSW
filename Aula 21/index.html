@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+    <style>
+        #title{
+            color: red;
+        }
+        #title:hover{
+            color: blueviolet;
+        }
+
+        .setas{
+            color: black;
+        }
+
+        #lista{
+            color: blue;
+        }
+
+        .links{
+            color: blueviolet;
+            text-decoration: none;
+        }
+        .links:active{
+            color: cyan;
+        }
+
+        #ytb{
+            color: gray;
+            text-decoration: none;
+        }
+
+        #letra::first-letter{
+            color: goldenrod;
+            font-size: 3em;
+        }
+
+        h3:hover{
+            display: none;
+        }
+
+        .bloco{
+            display: inline-block;
+            background-color: black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid cyan;
+            color: cyan;
+            margin-right: 5%;
+            margin-left: 30%
+        }
+
+    </style>
+</head>
+<body>
+    <div
+    id="title"><h1>Exemplo de Pseudo Elemento</h1>
+    </div>
+
+    <br>
+
+    <ul id="lista">
+    <div>
+        <li>
+            <a class="links" href="https://github.com/SrRuanittroz/SI1N-CSW/tree/main">>> Repositório do Github</a>
+        </li>
+    </div>
+
+    <div>
+        <li>
+            <a class="links" href="https://uvv.br/">>> Canal do Youtube</a>
+        </li>
+    </div>
+
+    <div>
+        <li>
+            <a class="links" href="https://www.youtube.com/channel/UC-FsT1b7rc-mKVOjikjw5jg">>> UVV</a>
+        </li>
+    </div>
+    </ul>
+
+    >> <a id="ytb" href="https://www.youtube.com/">Youtube</a>
+    <p class="setas" id="letra">João é um cara irado!</p>
+
+    <div class="bloco">
+        <h1>Texto Oculto</h1>
+        <br>
+        <h3 >!!!</h3>
+    </div>
+
+</body>
+</html>
